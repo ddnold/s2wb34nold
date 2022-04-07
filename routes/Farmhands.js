@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET Farmhands page */
 router.get('/', function(req, res, next) {
-  res.render('FarmHands', { title: 'Search Results ~ Developing Web Apps and Services' });
+  res.render('farmhands', { title: 'Search Results ~ Developing Web Apps and Services' });
 });
 
 module.exports = router;
